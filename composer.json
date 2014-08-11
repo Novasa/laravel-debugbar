@@ -1,6 +1,6 @@
 {
     "name": "novasa/laravel-debugbar",
-    "description": "PHP Debugbar integration for Laravel",
+    "description": "PHP Debugbar integration for Laravel.",
     "keywords": ["laravel", "debugbar", "profiler", "debug", "webprofiler"],
     "license": "MIT",
 

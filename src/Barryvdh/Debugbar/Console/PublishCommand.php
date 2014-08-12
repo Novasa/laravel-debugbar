@@ -52,7 +52,7 @@ class PublishCommand extends Command {
     public function fire()
     {
 
-        $package = 'maximebf/php-debugbar';
+        $package = 'novasa/php-debugbar';
         if ( ! is_null($path = $this->getDebugBarPath()))
         {
             $this->assets->publish($package, $path);

@@ -497,7 +497,7 @@ class LaravelDebugbar extends DebugBar
         }
 
         if(method_exists($renderer, 'addAssets')){
-            $dir = 'packages/barryvdh/laravel-debugbar';
+            $dir = 'packages/novasa/laravel-debugbar';
             $renderer->addAssets(array('laravel-debugbar.css'), array(), $this->app['path.public'].'/'.$dir, $this->app['url']->asset($dir));
         }
 

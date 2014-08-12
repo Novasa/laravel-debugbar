@@ -295,7 +295,7 @@ class LaravelDebugbar extends DebugBar
         }
 
         $renderer = $this->getJavascriptRenderer();
-        $renderer->setBaseUrl($this->app['url']->asset('packages/maximebf/php-debugbar'));
+        $renderer->setBaseUrl($this->app['url']->asset('packages/novasa/php-debugbar'));
         $renderer->setIncludeVendors($this->app['config']->get('laravel-debugbar::config.include_vendors', true));
 
         $this->booted = true;

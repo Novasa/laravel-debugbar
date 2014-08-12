@@ -62,7 +62,7 @@ class PublishCommand extends Command {
         {
             $this->error('Could not find path for: '.$package);
         }
-        $this->assets->publish('barryvdh/laravel-debugbar', $this->getPackagePublicPath());
+        $this->assets->publish('novasa/laravel-debugbar', $this->getPackagePublicPath());
         $this->info('Assets published for package: barryvdh/laravel-debugbar');
 
     }
